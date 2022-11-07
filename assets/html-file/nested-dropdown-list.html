@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./assets/css/nested-dropdown-list.css">
+      <link rel="stylesheet" href="./assets/css/all.min.css">
+      <title>Nested Dropdown List</title>
+  </head>
+  <body>
+    <div class="menubar">
+      <div class="gap">
+        <div class="navigation">
+          <div class="logo">
+              <h2> <a href="#">MAKSUD</a></h2>
+          </div>
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#" class="f-dropdown">Dropdown <i class="fa-solid fa-arrow-down"></i></a>
+              <ul class="dropdown">
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three <i class="fa-solid fa-arrow-right"></i></a>
+                  <ul class="dp3">
+                    <li><a href="#">Three1</a></li>
+                    <li><a href="#">Three2</a></li>
+                    <li><a href="#">Three3 <i class="fa-solid fa-arrow-left"></i></a>
+                      <ul class="dp3-3">
+                        <li><a href="#">Three3.1</a></li>
+                        <li><a href="#">Three3.2</a></li>
+                        <li><a href="#">Three3.3</a>
+                          <ul class="dp3-3-3">
+                            <li><a href="#">Three3.3.1</a></li>
+                            <li><a href="#">Three3.3.2</a></li>
+                            <li><a href="#">Three3.3.3</a></li>
+                            <li><a href="#">Three3.3.4</a>
+                              <ul class="dp3-3-3-3">
+                                <li><a href="#">Three3.3.4.1</a></li>
+                                <li><a href="#">Three3.3.4.2</a></li>
+                                <li><a href="#">Three3.3.4.3</a></li>
+                                <li><a href="#">Three3.3.4.4</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Three4</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      Footer
+    </footer>
+  </body>
+</html>

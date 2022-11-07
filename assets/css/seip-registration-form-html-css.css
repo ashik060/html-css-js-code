@@ -1,0 +1,45 @@
+input, select {
+    border: 1px solid #b4ce45;
+    height: 25px;
+}
+.main-div {
+    margin-left: 18%;
+    margin-right: 18%;
+}
+h2 {
+    margin-top: 50px;
+    color: #3E4FA1;
+    border-bottom: 1px solid #b4ce45;
+}
+h3 {
+    color: #999;
+    border-bottom: 1px solid #ccc;
+}
+.star {
+    color: red;
+}
+.span-class {
+    display: block;
+}
+.div-3 > label {
+    padding-right: 25px;
+    float: left;
+}
+.div-2 > label {
+    padding-right: 40px;
+    float: left;
+}
+.btn {
+    background: #B4CE45;
+    border: 0 none;
+    color: #464646;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.btn_reset {
+    background:#DDDBD4 !important;
+}

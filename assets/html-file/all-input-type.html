@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/all-input-type.css">
+    <title>All Input Type Example</title>
+  </head>
+  <body>
+    <div class="form">
+      <form action="receive_form_data.html" method="get" enctype="multipart/form-data" target="_blank">
+        <h2>Different input type example</h2>
+
+      <input type="text" placeholder='type="text"'><br><br>
+      <input type="email" placeholder='type="email"'><br><br>
+      <input type="tel" placeholder='type="tel"' pattern="[+]{1}[1-9]{2}[0-9]{11}"><br><br>
+      <input type="url" placeholder='input type="url"'><br><br>
+      <input type="password" placeholder='type="password"'><br><br>
+
+      <mark>input type="date" :</mark> &nbsp <input type="date" min="1970-01-01" max="2010-12-31"><br><br>
+      <mark>input type="datetime-local" :</mark> &nbsp <input type="datetime-local" min="1970-01-01T20:20" max="2010-12-31T20:20"><br><br>
+      <mark>input type="time" :</mark> &nbsp; <input type="time"><br><br>
+      <label><mark>input type="week" :</mark> <input type="week"></label><br><br>
+      <mark>input type="month" :</mark> &nbsp; <input type="month"><br><br>
+      <mark>input type="number" :</mark> &nbsp; <input type="number"><br><br>
+
+      <label><mark>input type="range" :</mark> (0 to 100) <input type="range" min="0" max="100"></label><br><br>
+
+      <button>input type="button"</button> &nbsp; &nbsp; <input type="search" placeholder='input type="search"'><br><br>
+
+      <mark>input type="radio"</mark> &nbsp; &nbsp;
+      <label for="female">Female</label><input type="radio" id="female" name="sex">
+      <label for="male">Male</label><input type="radio" id="male" name="sex"><br><br>
+      <mark>Select Your Courses:</mark><br>
+      <label><input type="checkbox" name="html" value="HTML">HTML</label><br>
+      <label><input type="checkbox" name="css" value="CSS">CSS</label><br><br>
+
+      <mark>input type="color" :</mark>  &nbsp;<input type="color"><br><br>
+
+      <mark>input type="file" :</mark> &nbsp;<input type="file" multiple><br><br>
+      <label>Select some images:
+      <input type="file" accept="image/*" multiple /></label><br><br>
+
+      <mark>input type="submit" :</mark> &nbsp; <input type="submit" value="Submit"><br><br>
+      <mark>input type="reset" :</mark> &nbsp; <input type="reset" value="Reset">
+    </form>
+    </div>
+  </body>
+</html>

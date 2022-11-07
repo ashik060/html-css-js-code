@@ -1,0 +1,35 @@
+.flex {
+  width: 100%;
+  height: auto;
+  background-color: #020a00;
+}
+.gap{
+  width: 80%;
+  margin: auto;
+}
+.egg-main{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.egg1, .egg2{
+    width: 300px;
+    height: 432px;
+    background-image: linear-gradient(#e9d0bc, #dfa37b, #d78a63);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin: 50px auto; 
+}
+.egg2 {
+    background-image: radial-gradient(#cb9981, #d79777, #be907a);
+}
+
+
+/* ---------------- For Reponsiveness -------------- */
+@media (max-width: 991.88px){
+  .gap{
+    width:100%
+  }
+  .egg-main{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}

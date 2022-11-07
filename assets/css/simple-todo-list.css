@@ -1,0 +1,38 @@
+table, tr, td {
+    border: 2px solid bisque;
+}
+table {
+    margin: auto;
+    width: 90%;
+}
+
+div {
+    color: rgb(213, 23, 234);
+    margin: auto;
+    width: 90%;
+}
+td > h3 {
+    color: #239ce1;
+    text-align: center;
+}
+caption {
+    color: red;
+}
+li {
+    font-size: 15px;
+}
+h4 {
+    border-top: 2px solid red;
+}
+ul, ol, div {
+    display: none;
+}
+h3:hover + ul {
+    display: block;
+}
+h3:hover + ol {
+    display: block;
+}
+h3:hover ~ div {
+    display: block;
+}

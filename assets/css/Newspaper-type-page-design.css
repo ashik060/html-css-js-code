@@ -1,0 +1,23 @@
+table {
+    margin: auto;
+    width: 90%;
+}
+td {
+    padding-left: 15px;
+    width: 25%;
+    font-size: small;
+}
+h2 {
+    color: rgb(20, 152, 233);
+}
+img {
+    margin: auto;
+    width: 90%;
+    height: 19vh;
+}
+a {
+    text-decoration: none;
+}
+h4 {
+    text-align: center;
+}
