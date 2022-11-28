@@ -1,0 +1,22 @@
+.namta-main{
+  width: 90%;
+  margin: auto;
+  background-color: #5b5f60;
+  display: flex;
+  flex-flow: row wrap;
+}
+.namta-con{
+  background: teal;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
+  font-size: 24px;
+  flex-grow: 1;
+}
+.namta-con i{
+  font-size: 20px;
+  color: #30306b;
+}
+.namta-con h5{
+  color: #dfd9d9;
+}

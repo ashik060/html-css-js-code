@@ -53,13 +53,14 @@ ul{
   display: block;
   padding: 30px;
   color: #092302;
+  transition: .4s;
 }
 .menu a:hover{
   background-color: #f1f1f1;
 }
 .nav{
   max-height: 0;
-  transition: max-height 2s ease-out;
+  transition: max-height 1s ease-out;
 }
 
 /* Menu Icon */
@@ -101,7 +102,7 @@ ul{
 
 /* Toggle menu icon */
 .side-menu:checked ~ nav{
-  max-height: 50%;
+  max-height: 100%;
 }
 
 

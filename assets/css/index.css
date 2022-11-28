@@ -1,0 +1,83 @@
+
+/* ---------------- Universal Selector --------------- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+h2{
+  padding: 20px 10px;
+  text-align: center;
+}
+
+/* ---------------- Background Image of the Body tag --------------- */
+body{
+  background-color: #157272;
+}
+
+/* ------------- Gap of the Contaner like Bootstrap .container --------------- */
+.gap{
+  width: 90%;
+  margin: auto;
+}
+
+.main-part{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  counter-reset: div; /* For initialization of a counter*/
+}
+.a_btn{
+  cursor: pointer;
+  background-color: #051c1f;
+  padding: 12px;
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+}
+.a_btn:hover{
+  background-color: #444;
+}
+.a_btn:hover a{
+  text-decoration: underline;
+  color: red;
+}
+
+/* For counter */
+.a_btn::before{
+  padding: 8px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background-color: #666;
+  counter-increment: div;
+  content: counter(div);
+}
+/* -------------- For Responsive Design --------------- */
+
+/* For extra small screen */
+@media (max-width: 767.88px) {
+  .gap{
+    width: 100%;
+  }
+  .main-part{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Upto extra small screen and lower to large screen */
+@media (min-width: 768px) and (max-width: 1199.88px) {
+  .main-part{
+    grid-template-columns: 1fr 1fr;
+  }
+}
